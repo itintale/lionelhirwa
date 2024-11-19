@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Solutions</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #b6b6b6;
+    }
+
+    header {
+      position: relative;
+      text-align: center;
+      color: aqua;
+      padding: 110px 0;
+    }
+
+    /* Slideshow Styles */
+    .slideshow-container {
+      position: absolute;
+      top: 100;
+      left: 100;
+      width:100%;
+      height:60%;
+      overflow: hidden;
+    }
+
+    .mySlides {
+      display: none;
+      height: 100%;
+      width: 75%;
+    }
+
+    .mySlides:nth-child(1) {
+      background-image: url('file:///C:/Users/charles/Downloads/welcome-to-internet-dank-meme-pv89x0mnnbb9lxln.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .mySlides:nth-child(2) {
+      background-image: url('file:///C:/Users/charles/Downloads/all-are-welcome-here-sign-3i20mi780hciy3f9.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .mySlides:nth-child(3) {
+      background-image: url('file:///C:/Users/charles/Downloads/locked-padlock-cybersecurity-symbol-cvkboun50pfaw4s0.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Welcome Text Style */
+    .welcome-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: blue;
+      z-index: 1;  /* Ensure the text appears on top of the images */
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      z-index: 1;  /* Ensure the header text is above the images */
+    }
+
+    /* Additional Section Styles */
+    section {
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    #about, #services {
+      padding: 60px 20px;
+      background-color: #fff;
+      color: #367;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,1,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #835;
+      color: green;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 40px 20px;
+      background-color: #f5f5f6;
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    #contact p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .social-media {
+      margin-top: 20px;
+    }
+
+    .social-button {
+      background-color: #ff7b50;  /* Blue color for buttons */
+      color: red;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .social-button:hover {
+      background-color: #06bff6b;  /* Darker blue on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Slideshow -->
+  <header>
+    <div class="slideshow-container">
+      <div class="mySlides fade"></div>
+      <div class="mySlides fade"></div>
+      <div class="mySlides fade"></div>
+    </div>
+    <div class="welcome-text"
+      Welcome to Lionel Online Web Portal
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We specialize in providing high-quality technical services that cater to the needs of both individuals and businesses. Our offerings include expert phone and PC maintenance, web development courses, and online security guidance. We're dedicated to empowering our clients with the knowledge and tools to succeed in the digital world.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <h3>Phone and PC Maintenance</h3>
+    <ul>
+      <li>Device Diagnostics</li>
+      <li>Repairs and Upgrades</li>
+      <li>Software Optimization</li>
+      <li>Virus and Malware Removal</li>
+    </ul>
+    
+    <h3>Web Development Courses</h3>
+    <ul>
+      <li>Beginner to Advanced Web Development</li>
+      <li>Interactive Learning</li>
+      <li>Full-Stack Development</li>
+      <li>Online Learning Platform</li>
+    </ul>
+    
+    <h3>Online Security Platforms Guidance</h3>
+    <ul>
+      <li>Setting Up Security Systems</li>
+      <li>Data Protection</li>
+      <li>Cybersecurity Best Practices</li>
+      <li>Secure Web Development</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to get in touch, feel free to reach out to us through the following methods:</p>
+    
+    <p><strong>Phone:</strong> <a href="tel:+0791566874">0791566874</a></p>
+    <p><strong>Email:</strong> <a href="mailto:hhirwaa@gmail.com">hhirwaa@gmail.com</a></p>
+    
+    <div class="social-media">
+      <a href="https://facebook.com/it.lionel" target="_blank">
+        <button class="social-button">Follow us on Facebook</button>
+      </a>
+      <a href="https://instagram.com/it.lionel" target="_blank">
+        <button class="social-button">Follow us on Instagram</button>
+      </a>
+      <a href="https://wa.me/0791566874" target="_blank">
+        <button class="social-button">or text us in whatsapp</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024©️©️ lin bussiness group. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    let slideIndex = 0;
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("mySlides");
+      
+      // Hide all slides
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      
+      // Increment slide index and wrap around if necessary
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      
+      // Show the current slide
+      slides[slideIndex - 1].style.display = "block";
+      
+      // Set the slideshow to change every 3 seconds (3000ms)
+      setTimeout(showSlides, 3000);
+    }
+
+    // Call the function to start the slideshow after a 4-second delay
+    setTimeout(showSlides, 6000);
+  </script>
+
+</body>
+</html>
